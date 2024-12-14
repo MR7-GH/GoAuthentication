@@ -1,0 +1,22 @@
+root = "."
+tmp_dir = "tmp"
+
+[build]
+# Working directory
+cmd_dir = "."
+# Command to build your app
+bin = "main"
+# Path to main Go file
+cmd = "go build -o ./main"
+# Command to run your app after it's built
+full_bin = "./main"
+# Patterns to include for rebuilding
+include_ext = ["go", "tpl", "tmpl", "html", "css", "js"]
+# Exclude these directories from being watched
+exclude_dir = ["assets", "tmp", "vendor", "node_modules"]
+# Watch these directories for changes
+include_dir = ["."]
+
+# Logging options
+[log]
+log = "air.log"
