@@ -1,0 +1,32 @@
+[
+    {
+        "name": "subfinder",
+        "icon": "icons/subfinder.png",
+        "description": "Finding the subdomains <br/>of a domain (passive)"
+    },
+    {
+        "name": "whois",
+        "icon": "icons/whois.png",
+        "description": "Finding details about <br/>IP and Domain"
+    },
+    {
+        "name": "ip-range-checker",
+        "icon": "icons/ip-range.png",
+        "description": "Finding IP-Range and details<br/>of targeted IP"
+    },
+    {
+        "name": "reverse-dns",
+        "icon": "icons/dns.png",
+        "description": "Finding domain with IP"
+    },
+    {
+        "name": "katana",
+        "icon": "icons/katana.png",
+        "description": "Crawling targeted domain"
+    },
+    {
+        "name": "nuclei",
+        "icon": "icons/nuclei.png",
+        "description": "Checking targeted address<br/>for security issues"
+    }
+]
