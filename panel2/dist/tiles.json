@@ -2,17 +2,17 @@
     {
         "name": "subfinder",
         "icon": "icons/subfinder.png",
-        "description": "Finding the subdomains <br/>of a domain (passive)"
+        "description": "Finding the subdomains of a domain (passive)"
     },
     {
         "name": "whois",
         "icon": "icons/whois.png",
-        "description": "Finding details about <br/>IP and Domain"
+        "description": "Finding details about IP and Domain"
     },
     {
         "name": "ip-range-checker",
         "icon": "icons/ip-range.png",
-        "description": "Finding IP-Range and details<br/>of targeted IP"
+        "description": "Finding IP-Range and details of targeted IP"
     },
     {
         "name": "reverse-dns",
@@ -27,6 +27,6 @@
     {
         "name": "nuclei",
         "icon": "icons/nuclei.png",
-        "description": "Checking targeted address<br/>for security issues"
+        "description": "Checking targeted address for security issues"
     }
 ]

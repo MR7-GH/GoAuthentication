@@ -19,13 +19,15 @@
 
 body {
   line-height: 1.5;
-  min-height: 100vh;
+  min-height: 90vh;
   font-family: "Be Vietnam Pro", sans-serif;
   background-color: var(--c-gray-900);
   color: var(--c-text-primary);
   display: flex;
   padding-top: 3vw;
   padding-bottom: 3vw;
+  justify-content: center;
+  align-items: center;  
 }
 
 *,
@@ -48,7 +50,7 @@ textarea {
 
 a {
   color: inherit;
-}
+} 
 
 .responsive-wrapper {
   width: 90%;
@@ -58,8 +60,8 @@ a {
 }
 
 .app {
-  min-height: 80vh;
-  width: 95%;
+  min-height: 90%;
+  width: 90vw;
   max-width: 1600px;
   background-color: var(--c-gray-800);
   padding: 2vw 4vw 6vw;
@@ -127,6 +129,7 @@ a {
   -moz-column-gap: 4rem;
        column-gap: 4rem;
   padding-top: 2.5rem;
+  max-width: 95vw;
 }
 @media (max-width: 1200px) {
   .app-body {
@@ -427,6 +430,12 @@ a {
   font-weight: 200;
 }
 
+.service-section {
+  display: flex;
+  flex-direction: column;
+  width: 45vw;
+}
+
 .service-section > h2 {
   font-size: 1.5rem;
   margin-bottom: 1.25rem;
@@ -719,6 +728,15 @@ a {
     justify-content: flex-start;
   }
 }
+.app-side-bar{
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.payment-section {
+  /* width: 100px;
+  margin-right: 50px; */
+  
+}
 
 .payment-section > h2 {
   font-size: 1.5rem;
@@ -860,6 +878,7 @@ button:focus {
     transform: translateY(100%);
   }
 }
+
 section span.animated
 {
   position: relative;
