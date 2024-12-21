@@ -69,6 +69,6 @@ document.addEventListener("DOMContentLoaded", () => {
   form.addEventListener("submit", async (e) => {
     e.preventDefault(); // Prevent default submission
     await showCustomAlert("Your request sent for administration."); // Wait for custom alert confirmation
-    window.location.href = "/Login"; // Redirect after confirmation
+    window.location.href = "/Auth/Login"; // Redirect after confirmation
   });
 });
